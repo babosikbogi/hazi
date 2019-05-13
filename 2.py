@@ -13,5 +13,5 @@ for i in range(3,sys.maxsize):
     if prime(i):
         lst.append(i)
         if len(lst)==n:
-            print(lst[n-1])
+            print(f"{lst[n-1]} a {len(lst)}. prím szám")
             break
